@@ -130,9 +130,13 @@ display: flex;
 justify-content: space-between;
 
 
+
+
     
   
 }
+
+
 
 .footer__imagen{
     height:100px;
@@ -236,6 +240,15 @@ border-color: black;
     width: 4rem;
     height: 4rem;
 }
+
+.card-body{
+    background-image: url(../imagenes/unfondo.jfif)
+}
+
+.piedepagina{
+    padding: 500px;
+}
+
 
 
 
