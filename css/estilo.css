@@ -96,7 +96,7 @@ display: inline-block;
 }
 
 .section{
-    height:300px;
+    height:50px;
 }
 
 .section__contenedor{
@@ -105,7 +105,7 @@ display: inline-block;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-max-width: 1000px;
+width:300px;
 margin: auto;
 min-height: 500px;
 padding: 1rem;
@@ -129,7 +129,7 @@ display: flex;
 
 justify-content: space-between;
 
-background-image: url(../imagenes/unfondo.jfif)
+
     
   
 }
@@ -154,7 +154,7 @@ font-size: 20x;
 }
 
 .sectiondos{
-    padding:2rem 100px;
+    padding:2rem 200px;
  
 
 }
@@ -181,6 +181,7 @@ font-size: 50px;
 
 .icono {
 padding:2rem 200px;
+
     
 }
 
@@ -190,7 +191,9 @@ grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 200px;
 max-width: 1200px;
 margin: 0 auto;
-}
+
+
+}   
 
 .icono__items{
     flex-direction: column;
@@ -221,6 +224,17 @@ border-color: black;
 .sectiondos__compra{
     background-color: aqua;
 
+}
+
+.sectiondos__trabajo{
+    width: 100%;
+    height: 50%;
+}
+
+
+.logo{
+    width: 4rem;
+    height: 4rem;
 }
 
 

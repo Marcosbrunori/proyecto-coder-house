@@ -5,50 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inmobiliaria MB-inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
 </head>
 <body>
-    <header class="header">
-        <h1>CONTACTATE CON NOSOTROS ASÍ TE ASESORAMOS</h1>
-        <div class="header__contenedor"> 
-        <div class="header__marca"> 
-            <img src="./imagenes/logos.png" alt="logo"></div>
-
-        <nav class="nav">
-        
-             <ul  class="nav__lista">
-
-                <li class="nav__item"><a href="index.html">inicio </a></li>
-           
-                <li class="nav__item"><a href=pages/compra.html >compra</a></li>
-           
-                <li class="nav__item"><a href=pages/venta.html>venta</a></li>
-           
-                <li class="nav__item"><a href=pages/alquiler.html>alquiler</a></li>
-                
-                <li class="nav__item"><a href="./pages/Contacto.html">contacto</a></li>
-                
-                 
-            </ul> 
-         </div>
-        
-        </nav>
-            
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" ><img class="logo" src="./imagenes/logos.png" alt="Logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/compra.html">Compra</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/venta.html">Venta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/alquiler.html">alquiler</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Contacto.html">Contacto</a>
+                  </li>
+              </div>
+            </div>
+          
+          </nav>
+          
     </header>
     <main>
         <section class="section">
    
         <div class="section__contenedor">
             <div class="section__left">
-                <h2 class="section__titulo">Mucho más que mudarte</h2>
-
-                <p class="section__parrafo">Inmuebles extraordinarios dirigidos y supervisados por Corredores Públicos matriculados, especializados en la compra y venta de propiedades premium </p>
+              
+               
                 
                
             </div>
@@ -63,22 +66,49 @@
     <section class="sectiondos">
 
              
-        <h2 class="sectiondos__titulo">Propiedades en Córdoba y alrededores</h2>
+        <h2 class="sectiondos__titulo">Mucho más que mudarte</h2>
                
         <div class="container">
             <div class="row">
-              <div class="col">
-                <img src="./imagenes/alquilerdepto.jfif" alt="">
-              </div>
-              <div class="col">
-              <img src="./imagenes/compraventa.jfif" alt="">
-              </div>
-              <div class="col">
-     <img src="./imagenes/ventacasa.jfif" alt="">
-              </div>
-            </div>
-          </div>
+
             
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <img class="sectiondos__trabajo" src="./imagenes/trabajo.webp" alt="">
+                
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-md12 col-md-4">
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <img class="sectiondos__trabajo" src="./imagenes/experiencia.webp" alt="">
+    </div>
+  </div>
+            </div>
+            <div class="col-md12 col-md-4">
+                
+                <div class="col-md12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <img class="sectiondos__trabajo" src="./imagenes/franquiciasok.webp" alt="">
+                        </div>
+                      </div>
+                  </div>
+                            </div>
+                
+
         </div>
         </section>
    
