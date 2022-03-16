@@ -129,6 +129,7 @@ display: flex;
 
 justify-content: space-between;
 
+padding-top: 15rem;
 
 
 
@@ -257,7 +258,7 @@ border-color: black;
 }
 
 .section__titulo{ 
-    font-size: 75px;
+    font-size: 50px;
   
 }
 
@@ -266,6 +267,18 @@ border-color: black;
     padding-bottom: 3rem;
     
 }
+
+
+.sep__img{
+    width:500px;
+    height:500px;
+}
+
+.container{
+    padding-top: 2rem;
+}
+
+
 
 
 @media screen and (max-width: 1024px) {
