@@ -9,8 +9,6 @@ background-color: gainsboro;
  }
 
 
-
-
 h1{
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -23,41 +21,14 @@ h2{
     font-family: 'Roboto', sans-serif;
     font-size: 50px;}
 
-.menu_compra{
-    flex-direction: column;
-}
-
-.venta{
-    flex-direction: column;
-}
 
 
-.contacto{
-    height: 100%;
-    width:100%;
-   padding: 50px;
-   font-size:30px;
-   text-align:left;color: black;
-   margin-top:0 auto ;
-}
-
-.datos{
-    font-family:'Roboto', sans-serif ;
-    font-size: 30 px;
-
-}
-
-.header {
-    height: 250px;
 
 
-    padding: 2rem;
-    position: relative;
 
 
-background-image: url(../imagenes/unfondo.jfif)
 
-}
+
 
 .header__contenedor {
     max-width: 1000px;
@@ -77,23 +48,11 @@ width: 100px;
 position:relative;
 display: flex;
 flex-direction: row;
-padding: 1rem;
+padding: 50px;
 
 }
 
-.nav__lista {
-    display: flex;
-    list-style: none;
-}
 
-.nav__item {
-margin-left: 1rem;
-text-decoration: none;
-letter-spacing: 0.1rem;
-padding: 0.5rem 1rem;
-display: inline-block;
-
-}
 
 .section{
     height:50px;
@@ -121,6 +80,8 @@ padding: 1rem;
     padding: 2rem;
     line-height: 2rem;
 }
+
+
  
 .footer__contenedor{
 
@@ -129,7 +90,7 @@ display: flex;
 
 justify-content: space-between;
 
-padding-top: 15rem;
+padding-top: 100px;
 
 
 
@@ -159,7 +120,7 @@ font-size: 20x;
 }
 
 .sectiondos{
-    padding:2rem 200px;
+    padding:2rem;
  
 
 }
@@ -219,17 +180,9 @@ position: relative;
 }
 
 
-.compra__grid{
-    display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows:300px;
-border-color: black;
-}
 
-.sectiondos__compra{
-    background-color: aqua;
 
-}
+
 
 .sectiondos__trabajo{
     width: 100%;
@@ -249,7 +202,7 @@ border-color: black;
 }
 
 .piedepagina{
-    padding: 500px;
+    padding: 200px;
 }
 
 .img-fluid{
@@ -276,6 +229,10 @@ border-color: black;
 
 .container{
     padding-top: 2rem;
+}
+
+.card{
+    padding-top: 20px;
 }
 
 
@@ -312,6 +269,7 @@ border-color: black;
 
    .footer__contenedor{
        flex-direction: column;
+       
    }
    .compra__grid{
        grid-template-columns: 1fr;
