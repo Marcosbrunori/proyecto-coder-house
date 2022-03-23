@@ -1,0 +1,157 @@
+ 
+    
+    
+    
+    
+    
+    .section{
+        height:50px;
+        &__contenedor{
+    
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+        width:300px;
+        margin: auto;
+        
+        padding: 1rem;
+    font-size: $miVariable;
+        
+        }
+  
+    }
+    
+    .section__contenedor{
+    
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    width:300px;
+    margin: auto;
+    
+    padding: 1rem;
+font-size: $miVariable;
+    
+    }
+    
+    .section__titulo{
+        font-size: 35px;
+        font-size:  $miVariable;
+    }
+      
+    .section__parrafo{
+        font-size: 17px;
+        padding: 2rem;
+        line-height: 2rem;
+    }
+    
+    
+    
+         .section__contenedor{
+    display: flex;
+    flex-direction: row;
+    }
+    
+     .section__titulo{
+    font-size: 20x;
+    
+    }
+    
+    .sectiondos{
+        padding:2rem;
+     
+    
+    }
+    
+    .sectiondos__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:300px;
+    
+    }
+    
+    .sectiondos__items{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding: 1rem;  
+    }
+    
+    .sectiondos__titulo{
+    margin: 3rem;
+    font-size: 50px;
+    
+    }
+    
+    .icono {
+    padding:2rem 200px;
+    
+        
+    }
+    
+    .icono_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+    }   
+    
+    .icono__items{
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .icono__items i{
+        font-size: 30px;
+      
+    }
+    
+    .sectiondos__img{
+    width: 300px;
+    height:200px;
+    position: relative;
+    
+    }
+    .sectiondos__trabajo{
+        width: 100%;
+        height: 50%;
+    }
+
+    .card{
+        padding-top: 20px;
+    }
+    
+    .container{
+        padding-top: 2rem;
+    }
+    .img-fluid{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section__titulo{ 
+        font-size: 50px;
+      
+    }
+    
+    .sep{
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        
+    }
+    
+    
+    .sep__img{
+        width:500px;
+        height:500px;
+    }
+    
+ 
+   
+    

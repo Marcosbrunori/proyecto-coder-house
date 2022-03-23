@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+.header__contenedor {
+max-width: 1000px;
+margin: 0 auto;
+ height: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items:center;
+}
+
+.container-fluid{
+background-color:$miVariable;
+}
+  
+ .header__marca img {
+ height: 100px;
+width: 100px;
+position:relative;
+ display: flex;
+flex-direction: row;
+ padding: 50px;
+font-size: $miVariable;
+}
+.navbar-toggler{
+ background-color: $miVariable;
+ }
+
+ li{
+        color: black;
+        &:hover{
+            color: blue;
+    }
+}
