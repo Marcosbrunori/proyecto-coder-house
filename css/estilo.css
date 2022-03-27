@@ -1,3 +1,21 @@
+.m-0 {
+  margin: 0; }
+
+.m-1 {
+  margin: 0.25rem; }
+
+.m-2 {
+  margin: 0.5rem; }
+
+.m-3 {
+  margin: 1rem; }
+
+.m-4 {
+  margin: 1 1.5rem; }
+
+.m-5 {
+  margin: 1 2rem; }
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +31,7 @@
   align-items: center; }
 
 .container-fluid {
-  background-color: midnightblue; }
+  background-color: #30c7a6; }
 
 .header__marca img {
   height: 100px;
@@ -22,10 +40,10 @@
   display: flex;
   flex-direction: row;
   padding: 50px;
-  font-size: midnightblue; }
+  font-size: #30c7a6; }
 
 .navbar-toggler {
-  background-color: midnightblue; }
+  background-color: #30c7a6; }
 
 li {
   color: black; }
@@ -46,12 +64,18 @@ h2 {
 h3 {
   font-size: 30px; }
 
-.logo {
-  width: 4rem;
-  height: 4rem; }
-
 .card-body {
   background-image: url(../imagenes/unfondo.jfif); }
+
+.logo, .logo--medium {
+  width: 4rem;
+  height: 4rem;
+  border-color: black;
+  padding: 10px; }
+
+.logo--medium {
+  width: 6rem;
+  height: 6rem; }
 
 .section {
   height: 50px; }
@@ -63,7 +87,7 @@ h3 {
     width: 300px;
     margin: auto;
     padding: 1rem;
-    font-size: midnightblue; }
+    font-size: #30c7a6; }
 
 .section__contenedor {
   display: flex;
@@ -73,11 +97,11 @@ h3 {
   width: 300px;
   margin: auto;
   padding: 1rem;
-  font-size: midnightblue; }
+  font-size: #30c7a6; }
 
 .section__titulo {
   font-size: 35px;
-  font-size: midnightblue; }
+  font-size: #30c7a6; }
 
 .section__parrafo {
   font-size: 17px;
@@ -160,9 +184,10 @@ h3 {
 .footer__contenedor {
   display: flex;
   justify-content: space-between;
+  align-items: strech;
   padding-top: 100px;
-  font-size: midnightblue;
-  background-color: midnightblue; }
+  font-size: #30c7a6;
+  background-color: #30c7a6; }
 
 .footer__imagen {
   height: 100px;

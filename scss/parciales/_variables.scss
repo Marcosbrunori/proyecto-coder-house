@@ -1,2 +1,20 @@
-$miVariable: midnightblue;
+$miVariable: rgb(48, 199, 166);
 $tipografia:'Roboto', sans-serif;
+
+$espaciado:1rem;
+$espaciados: (
+    0: 0,
+    1 : $espaciado * 0.25,
+    2: $espaciado  * 0.5,
+    3 :$espaciado ,
+    4 :1$espaciado * 1.5,
+    5 :1$espaciado  * 2
+);
+
+@each $clave, $valor in $espaciados{
+   .m-#{$clave} { 
+       margin: $valor;
+   } 
+
+
+}
