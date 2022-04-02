@@ -7,7 +7,7 @@ justify-content: center;
 align-items: center;
 width:300px;
 margin: auto;
-padding: 1rem;
+padding: 2rem;
 font-size: $miVariable;
  }
   }
@@ -88,9 +88,12 @@ position: relative;
 
  .card{   
 padding-top: 20px;
+
+
  } 
   .container{
  padding-top: 2rem;
+ 
 }
 .img-fluid{
  width: 100%;
@@ -107,12 +110,5 @@ padding-bottom: 3rem;
  width:500px;
  height:500px;
  }
-.container{
-   text-align: center;
-}
- 
-.card-body{
-   text-align: center
-}
-   
+
     

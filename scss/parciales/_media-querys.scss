@@ -38,7 +38,17 @@
 
    .section__titulo{
     font-size: 15px;
+
 }
+.footer__imagen{
+
+        grid-template-columns: 1fr;
+        grid-column: 100px 100px;
+        justify-content: end;}
+.card{
+        
+            padding-left: 5rem;
+        }
     
 }
 
@@ -49,9 +59,15 @@
     
     .sectiondos__grid{
      grid-template-columns: 1fr;
-     grid-column: 100px 100px;}
+     grid-column: 100px 100px;
+     justify-content: end;}
     
-    .icono__grid{ grid-template-columns: 1fr;
+     .icono__grid{
+         display: grid;
+        grid-template-columns: 1fr; 
+        
+
+
        
         
     
@@ -59,6 +75,21 @@
 
     .section__titulo{
         font-size: 15px;
+    }
+    .card{
+        
+        padding-left: 5rem;
+    }
+    .icono__items{
+    
+        grid-template-columns: end;
+        font-size: 20px;
+
+    }
+    .derechos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
                  
                     
