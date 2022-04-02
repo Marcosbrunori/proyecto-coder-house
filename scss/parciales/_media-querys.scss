@@ -46,8 +46,10 @@
         grid-column: 100px 100px;
         justify-content: end;}
 .card{
-        
-            padding-left: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+          
         }
     
 }
