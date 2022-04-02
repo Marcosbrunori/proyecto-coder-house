@@ -181,6 +181,12 @@ h3 {
   width: 500px;
   height: 500px; }
 
+.container {
+  text-align: center; }
+
+.card-body {
+  text-align: center; }
+
 .footer__contenedor {
   display: flex;
   justify-content: space-between;
