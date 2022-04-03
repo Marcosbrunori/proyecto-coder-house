@@ -185,7 +185,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: strech;
-  padding-top: 100px;
+  padding-top: 50px;
   font-size: #30c7a6;
   background-color: #30c7a6; }
 
@@ -195,7 +195,7 @@ h3 {
   padding: 1rem; }
 
 .piedepagina {
-  padding: 200px; }
+  padding: 100px; }
 
 @media screen and (max-width: 1024px) {
   .header {
@@ -245,18 +245,11 @@ h3 {
     flex-wrap: wrap; }
   .sectiondos__grid {
     grid-template-columns: 1fr;
-    grid-column: 100px 100px;
-    justify-content: end; }
-  .icono__grid {
-    display: grid;
-    grid-template-columns: 1fr; }
+    grid-column: 100px 100px; }
   .section__titulo {
     font-size: 15px; }
   .card {
-    padding-left: 5rem; }
-  .icono__items {
-    grid-template-columns: end;
-    font-size: 20px; }
+    padding-left: 1rem; }
   .derechos {
     display: flex;
     flex-direction: column;
@@ -264,4 +257,10 @@ h3 {
   .footer__imagen {
     display: flex;
     flex-direction: column;
-    align-items: flex-end; } }
+    align-items: flex-end; }
+  .icono__flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  .icono__items {
+    font-size: 5px; } }
