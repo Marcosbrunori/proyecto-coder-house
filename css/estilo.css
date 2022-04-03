@@ -224,12 +224,21 @@ h3 {
     font-size: 15px; }
   .footer__imagen {
     grid-template-columns: 1fr;
-    grid-column: 100px 100px;
     justify-content: end; }
   .card {
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  .icono {
+    display: grid;
+    justify-content: end; }
+    .icono .footer__imagen {
+      display: grid;
+      justify-content: end; }
+    .icono .derechos {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
 
 @media screen and (max-width: 600px) {
   .nav__lista {
@@ -251,4 +260,8 @@ h3 {
   .derechos {
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  .footer__imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; } }
