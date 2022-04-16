@@ -1,19 +1,35 @@
+ body{
+     background-color: black;
+    }
  
+
 
  h1{
 text-align: center;
 font-family: $tipografia;
 font-size: 30px;
 padding:20px ;
+color: white;
+
+
+
 }
     
 h2{
 text-align: center;
 font-family: $tipografia;
-font-size: 50px;}
+font-size : 50px;
+color: white;}
+
 h3{
 font-size: 30px;
+color:  white;
 }
+.p1{
+    color: white;
+    padding-left: 2rem;
+}
+
 .card-body{
     background-image: url(../imagenes/unfondo.jfif)
 }
@@ -28,4 +44,8 @@ padding:10px;
 width: 6rem;
 height: 6rem;
 @extend .logo;
+}
+
+.color{
+    background-color: black;
 }

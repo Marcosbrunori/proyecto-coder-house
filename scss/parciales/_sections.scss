@@ -94,7 +94,7 @@ padding-top: 20px;
  } 
   .container{
  padding-top: 2rem;
-;
+
  
 }
 .img-fluid{
@@ -111,5 +111,72 @@ padding-bottom: 3rem;
 .sep__img{
  width:500px;
  height:500px;
+ padding-left: 1rem;
+ overflow: hidden;
+
+
  }
 
+
+
+ .experiencia{
+    padding: 100px  1rem;
+ min-height: 50px;
+    background-color:black;
+
+    overflow-x: hidden;
+  
+
+    padding: 1rem;
+ }
+ .experiencia__grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-row: 30px;
+   max-width: 1200px;
+   background-color: black;
+  
+  
+   margin:  0 auto;
+   padding: 1rem;
+   
+.p{
+   font-size: 100px;
+   color:white;
+}
+
+}
+
+.experiencia__img{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin:1rem;
+   padding: 1rem;
+
+}
+.espacio{
+   padding-bottom: 15rem;
+}
+
+ 
+.experiencia__titulo{
+   padding: 2rem;
+}
+
+.tamaño{
+   width: 300px;
+   height:200px;
+}
+
+.texto{
+   color: white;
+
+}
+
+
+.card{
+ margin-top: 1rem;
+}
